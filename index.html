@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Δικηγορικό Γραφείο Άννας Τσουλφίδου — Αρχική</title>
+  <meta name="description" content="Βιογραφικό, νομικές υπηρεσίες, ώρες γραφείου και στοιχεία επικοινωνίας." />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Δικηγορικό Γραφείο Άννας Τσουλφίδου — Αρχική" />
+  <meta property="og:description" content="Βιογραφικό, νομικές υπηρεσίες, ώρες γραφείου και στοιχεία επικοινωνίας." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/scales-open-book-hammer.png" />
+  <meta property="og:url" content="./" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Tailwind (CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#F8F9FA',
+              100: '#EDEFF2',
+              200: '#D1D5DB',
+              300: '#9CA3AF',
+              400: '#4B5563',
+              500: '#374151',
+              600: '#1E3A8A',
+              700: '#0D1B44',
+              800: '#0B1636',
+              900: '#081024',
+              gold: '#C5A250'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+
+  <!-- Favicon set -->
+  <link rel="icon" href="assets/fav/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/fav/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/fav/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/fav/favicon-64x64.png">
+  <link rel="apple-touch-icon" href="assets/fav/apple-touch-icon.png">
+
+  <!-- Structured Data (index only) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Δικηγορικό Γραφείο Άννας Τσουλφίδου",
+    "url": "./index.html",
+    "telephone": "+30-210-363-6344",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Σόλωνος 134, 1ος όροφος",
+      "addressLocality": "Αθήνα",
+      "addressRegion": "Αττική",
+      "postalCode": "10677",
+      "addressCountry": "GR"
+    },
+    "openingHoursSpecification": [
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:00"}
+    ],
+    "geo": {"@type":"GeoCoordinates","latitude": 37.9845,"longitude": 23.7330},
+    "hasMap": "https://www.google.com/maps?q=%CE%A3%CF%8C%CE%BB%CF%89%CE%BD%CE%BF%CF%82+134%2C+10677+%CE%91%CE%B8%CE%AE%CE%BD%CE%B1"
+  }
+  </script>
+
+  <style>:focus-visible { outline: 3px solid #0D1B44; outline-offset: 2px; }</style>
+</head>
+<body class="antialiased bg-white text-slate-800">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 bg-brand-700 text-white px-3 py-2 rounded-md">Μετάβαση στο περιεχόμενο</a>
+  <header class="border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <!-- Inline monogram logo (ΑΤ) -->
+        <svg class="w-9 h-9" viewBox="0 0 48 48" role="img" aria-label="Λογότυπο ΑΤ">
+          <rect x="4" y="4" width="40" height="40" rx="12" fill="#0D1B44"/>
+          <text x="50%" y="57%" text-anchor="middle" font-size="20" font-weight="700" fill="#C5A250"
+            font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial">ΑΤ</text>
+        </svg>
+        <div class="leading-tight">
+          <p class="font-semibold text-slate-900">Δικηγορικό Γραφείο Άννας Τσουλφίδου</p>
+          <p class="text-sm text-slate-500">Εμπιστοσύνη — Επιστημονική Επάρκεια — Αποτελεσματικότητα</p>
+        </div>
+      </div>
+      <nav aria-label="Κύρια Πλοήγηση" class="hidden md:flex items-center gap-6">
+        <a href="./index.html" class="text-sm hover:text-brand-gold">Αρχική</a>
+        <a href="./index.html#bio" class="text-sm hover:text-brand-gold">Βιογραφικό</a>
+        <a href="./index.html#services" class="text-sm hover:text-brand-gold">Νομικές Υπηρεσίες</a>
+        <a href="./index.html#hours" class="text-sm hover:text-brand-gold">Ώρες Γραφείου</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <section id="home" class="relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-16 lg:py-24 grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <h1 class="text-4xl sm:text-5xl font-semibold tracking-tight text-brand-700">Πρακτική, επιχειρηματική νομική συμβουλή.</h1>
+        <p class="mt-4 text-lg text-slate-600 max-w-prose">Αξιόπιστες, αποτελεσματικές και ολοκληρωμένες λύσεις σε διοικητικό, αστικό, εμπορικό και ποινικό δίκαιο, καθώς και σε υποθέσεις ακίνητης περιουσίας και κτηματολογίου.</p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="tel:+302103636344" class="inline-flex items-center justify-center rounded-xl px-5 py-3 bg-brand-700 text-white hover:bg-brand-600">210 363 6344</a>
+          <a href="mailto:tsoulfidou.a@dsa.gr" class="inline-flex items-center justify-center rounded-xl px-5 py-3 border border-slate-300 hover:border-brand-gold hover:text-brand-700">Email</a>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="aspect-[4/3] rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+          <img src="assets/img/scales-open-book-hammer.png" alt="Ανοιχτό βιβλίο δικαίου με ζυγό δικαιοσύνης και σφύρα" class="w-full h-full object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main" class="max-w-6xl mx-auto px-4 sm:px-6">
+    <section id="bio" class="mt-2 border border-slate-200 rounded-2xl p-6 shadow-sm">
+      <div class="mb-4">
+        <img src="assets/img/scales-law-book-hammer.png" alt="Ζυγός δικαιοσύνης με βιβλίο δικαίου και σφύρα" class="rounded-xl shadow-sm w-full md:w-1/3 float-right ml-6 mb-4 object-cover" />
+      </div>
+      <h2 class="text-xl font-semibold text-brand-700">Βιογραφικό</h2>
+      <div class="mt-3 space-y-3 text-slate-700 leading-relaxed">
+        <p>Η Άννα Τσουλφίδου διαθέτει εκτενή και πολυεπίπεδη εμπειρία σε ευρύ φάσμα νομικών ζητημάτων, προσφέροντας εξειδικευμένες συμβουλευτικές και δικαστηριακές υπηρεσίες. Είναι απόφοιτη της Νομικής Σχολής του Δημοκρίτειου Πανεπιστημίου Θράκης και κατέχει μεταπτυχιακούς τίτλους στις Ποινικές και Εγκληματολογικές Επιστήμες, καθώς και στη Νομική και Διοικητική Επιστήμη με ιδιαίτερη έμφαση στο Δίκαιο, την Οικονομία και την Τεχνολογία από το Πάντειο Πανεπιστήμιο.</p>
+        <p>Ως διαπιστευμένη διαμεσολαβήτρια, εγγεγραμμένη στο Γενικό Μητρώο Διαμεσολαβητών, προσφέρει υπηρεσίες εξωδικαστικής επίλυσης διαφορών, συμπεριλαμβανομένης της κτηματολογικής διαμεσολάβησης.</p>
+        <p>Η επαγγελματική της δραστηριότητα καλύπτει ένα ευρύ πεδίο, από το δημόσιο-διοικητικό και αστικό έως το εμπορικό και ποινικό δίκαιο, καθώς και υποθέσεις ακίνητης περιουσίας και κτηματολογίου. Με σταθερή προσήλωση στην ποιοτική νομική εκπροσώπηση, συνδυάζει επιστημονική γνώση με πρακτική εμπειρία, προσφέροντας νομικές υπηρεσίες σε δημόσιους φορείς και ιδιωτικές εταιρείες.</p>
+        <p>Η συνεχής επιμόρφωση, η σχολαστική προετοιμασία και η προσεκτική αντιμετώπιση των νομικών θεμάτων εγγυώνται την υψηλού επιπέδου κάλυψη των συμφερόντων των εντολέων της, παρέχοντας αξιόπιστες, αποτελεσματικές και ολοκληρωμένες λύσεις.</p>
+      </div>
+    </section>
+
+    <section id="services" class="mt-8 border border-slate-200 rounded-2xl p-6 shadow-sm">
+      <h2 class="text-xl font-semibold text-brand-700">Νομικές Υπηρεσίες</h2>
+      <p class="mt-2 text-slate-600">Το Δικηγορικό Γραφείο της Άννας Τσουλφίδου προσφέρει τις παρακάτω νομικές υπηρεσίες:</p>
+      <ul class="mt-4 grid md:grid-cols-2 gap-3 text-slate-800">
+        <li class="flex items-start gap-2"><span class="mt-2 inline-block w-2 h-2 rounded-full" style="background-color:#C5A250;"></span> Δημόσιο & Διοικητικό Δίκαιο</li>
+        <li class="flex items-start gap-2"><span class="mt-2 inline-block w-2 h-2 rounded-full" style="background-color:#C5A250;"></span> Αστικό Δίκαιο</li>
+        <li class="flex items-start gap-2"><span class="mt-2 inline-block w-2 h-2 rounded-full" style="background-color:#C5A250;"></span> Εμπορικό Δίκαιο</li>
+        <li class="flex items-start gap-2"><span class="mt-2 inline-block w-2 h-2 rounded-full" style="background-color:#C5A250;"></span> Ποινικό Δίκαιο</li>
+        <li class="flex items-start gap-2"><span class="mt-2 inline-block w-2 h-2 rounded-full" style="background-color:#C5A250;"></span> Ακίνητη Περιουσία & Κτηματολόγιο</li>
+        <li class="flex items-start gap-2"><span class="mt-2 inline-block w-2 h-2 rounded-full" style="background-color:#C5A250;"></span> Διαμεσολάβηση & Εναλλακτική Επίλυση Διαφορών</li>
+      </ul>
+    </section>
+
+    <section id="hours" class="mt-8 border border-slate-200 rounded-2xl p-6 shadow-sm">
+      <h2 class="text-xl font-semibold text-brand-700">Ώρες Γραφείου</h2>
+      <p class="text-slate-600 mt-2">Δεκτοί πελάτες κατά τις ώρες λειτουργίας. Συνιστώνται ραντεβού.</p>
+      <dl class="mt-4 grid grid-cols-2 gap-y-2 text-sm">
+        <dt class="text-slate-500">Δευτέρα–Παρασκευή</dt><dd class="text-slate-800">09:00 – 17:00</dd>
+        <dt class="text-slate-500">Σάββατο</dt><dd class="text-slate-800">Με ραντεβού</dd>
+        <dt class="text-slate-500">Κυριακή</dt><dd class="text-slate-800">Κλειστά</dd>
+      </dl>
+    </section>
+
+    <section id="contact" class="mt-8 border border-slate-200 rounded-2xl p-6 shadow-sm">
+      <h2 class="text-xl font-semibold text-brand-700">Στοιχεία Επικοινωνίας</h2>
+      <ul class="mt-4 space-y-2 text-sm">
+        <li><span class="text-slate-500">Τηλέφωνο:</span> <a class="text-slate-800 hover:text-brand-gold" href="tel:+302103636344">+30 210 363 6344</a></li>
+        <li><span class="text-slate-500">Κινητό:</span> <a class="text-slate-800 hover:text-brand-gold" href="tel:+306946466521">+30 694 646 6521</a></li>
+        <li><span class="text-slate-500">Email:</span> <a class="text-slate-800 hover:text-brand-gold" href="mailto:tsoulfidou.a@dsa.gr">tsoulfidou.a@dsa.gr</a></li>
+        <li><span class="text-slate-500">Διεύθυνση:</span> <span class="text-slate-800">Σόλωνος 134, 10677 Αθήνα — 1ος όροφος</span></li>
+      </ul>
+    </section>
+
+    <section id="location" class="mt-8 border border-slate-200 rounded-2xl overflow-hidden shadow-sm" x-data="{'loaded':false}">
+      <div class="p-6">
+        <h2 class="text-xl font-semibold text-brand-700">Τοποθεσία</h2>
+        <p class="text-slate-600 mt-2">Εύκολη πρόσβαση. 1ος όροφος.</p>
+      </div>
+      <div class="w-full h-[360px] border-t border-slate-200 flex items-center justify-center bg-slate-50">
+        <template x-if="!loaded">
+          <div class="text-center p-6">
+            <p class="text-sm text-slate-600 max-w-prose mx-auto">Ο χάρτης Google φορτώνει μόνο κατόπιν επιλογής σας. Η Google μπορεί να επεξεργαστεί δεδομένα συσκευής και να τοποθετήσει cookies.</p>
+            <button @click="loaded=true" class="mt-4 inline-flex items-center justify-center rounded-xl px-4 py-2 bg-brand-700 text-white hover:bg-brand-600">Προβολή χάρτη</button>
+          </div>
+        </template>
+        <template x-if="loaded">
+          <iframe title="Τοποθεσία γραφείου στον χάρτη" src="https://www.google.com/maps?q=%CE%A3%CF%8C%CE%BB%CF%89%CE%BD%CE%BF%CF%82+134,%2010677+%CE%91%CE%B8%CE%AE%CE%BD%CE%B1&output=embed" class="w-full h-full" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </template>
+      </div>
+    </section>
+
+    <section class="mt-8 grid lg:grid-cols-3 gap-6">
+      <aside class="lg:col-span-3 border border-amber-200 bg-amber-50 rounded-2xl p-6 shadow-sm">
+        <h2 class="text-lg font-semibold text-amber-900">Σημαντική Σημείωση</h2>
+        <p class="mt-2 text-amber-900 text-sm">Το περιεχόμενο της ιστοσελίδας δεν αποτελεί νομική συμβουλή και η επικοινωνία δεν δημιουργεί σχέση δικηγόρου‑πελάτη.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="mt-16 py-10 border-t border-slate-200 text-sm text-slate-500">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row justify-between gap-4">
+      <p>© <span id="year"></span> Δικηγορικό Γραφείο Άννας Τσουλφίδου. Με επιφύλαξη παντός δικαιώματος.</p>
+      <div class="flex items-center gap-4">
+        <a href="./privacy-policy.html" class="hover:text-brand-700">Πολιτική Απορρήτου</a>
+        <a href="./terms-of-use.html" class="hover:text-brand-700">Όροι Χρήσης</a>
+        <a href="mailto:tsoulfidou.a@dsa.gr" class="hover:text-brand-700">Επικοινωνία</a>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
